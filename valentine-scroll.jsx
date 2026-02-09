@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const MAP_IMG = ""
+const MAP_IMG = "placeholder"
 
 const SoftCloud = ({ width = 200, opacity = 0.9, color = "white", style = {} }) => (
   <svg width={width} height={width * 0.5} viewBox="0 0 200 100" style={style}>
